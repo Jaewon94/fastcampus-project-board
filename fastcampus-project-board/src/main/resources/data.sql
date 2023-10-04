@@ -1,3 +1,8 @@
+-- 테스트 계정
+insert into user_account (user_id, user_password,nickname, email, memo, created_at, created_by, modified_at, modified_by) values
+('jaewon','asdf','Jaewon', 'wodnjs3580@naver.com', 'I am Thor', now(), 'jaewon', now(), 'jaewon')
+;
+
 -- 300 게시글
 insert into article (title, content, hashtag, created_by, modified_by, created_at, modified_at) values ('Aenean fermentum.', 'Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.', 'Teal', 'Lazare', 'Merrill', '2023-01-07 09:32:37', '2022-11-28 23:05:52');
 insert into article (title, content, hashtag, created_by, modified_by, created_at, modified_at) values ('Integer tincidunt ante vel ipsum.', 'Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.', null, 'York', 'Justus', '2023-02-18 04:07:31', '2023-08-30 12:55:20');
